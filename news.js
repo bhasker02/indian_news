@@ -10,7 +10,7 @@ let newsaccordion = document.getElementById('newsaccordion');
 let slideshow = document.getElementById('slideshow');
 // Create an ajax get request
 const xhr = new XMLHttpRequest();
-xhr.open('GET', `https://newsapi.org/v2/top-headlines?country=in&apiKey=a1aabaafad7d4cf9b2032116a2b9c045`, true);
+xhr.open('GET', `https://newsapi.org/v2/top-headlines?sources=google-news-in&apiKey=ea73dbae30834a38baab3c9ec0224140`, true);
 
 
 // What to do when response is ready
