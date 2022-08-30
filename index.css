@@ -1,10 +1,10 @@
- * {
+* {
     padding: 0;
     margin: 0;
     box-sizing:border-box;
 }
   .main {
-   /*  background-image:url(COVER.PNG); */  
+   /*  background-image: url(news.jpg); */  
     width: auto;
     height:700px;
     background-size:cover;
@@ -76,17 +76,6 @@
 
 
 /* header styling  */
-header{
-    height:250px;
-    text-align: center;
-    line-height: 80px; 
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 80px;
-    background-color: #bcdddb;
-    /*display: flex;*/
-    background-image:url(COVER.PNG); 
-}
 .mh{
     width: 100px;
     height: 100px;
@@ -113,5 +102,3 @@ header{
     display: flex;
     padding-left: 50px;
 }
-
-
